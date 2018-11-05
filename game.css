@@ -1,0 +1,28 @@
+#test{
+
+}
+.animal-frame{
+  height: 46vh;
+}
+
+.height-top{
+  height: 15vh;
+}
+.landscape-frame{
+  background-image: url('assets/landscape.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+.duck-img{
+  max-height: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20%;
+}
+#pow{
+max-height: 75px;
+margin-top: 20%;
+}
+.hide-element{
+  display: none;
+}
