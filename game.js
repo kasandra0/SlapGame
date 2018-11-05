@@ -43,17 +43,17 @@ function feedDuck() {
 }
 function shoot(damage) {
   bird.health -= damage * addMods();
-  document.getElementById('pow').className = ''; //removes hide-element class
+  document.getElementById('bang').className = ''; //removes hide-element class
   setTimeout(() => {
-    document.getElementById('pow').className = "hide-element"
+    document.getElementById('bang').className = "hide-element"
   }, 100);
-  if (bird.health < 0) {
+  if (bird.health < 0) { // Health cannot be negative
     bird.health = 0;
   }
   bird.hits++;
   update();
 }
-function drawPow() {
+function drawbang() {
   document.getElementById('')
 }
 function healBird() {
